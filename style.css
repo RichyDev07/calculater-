@@ -1,0 +1,66 @@
+*{
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  
+    height: 400px;
+    width: 301px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+  
+}
+
+#screen {
+ 
+   height: 45px;
+   width: 259px;
+   margin: 5px;
+   font-size: 2rem;
+   text-align: right;
+   border-radius: 10px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+
+.button {
+   background-color: rgb(11, 34, 247);
+   height: 50px;
+   width: 48px;
+   margin: 10px;
+   color: white;
+   border-radius: 8px;
+   font-size: 25px;
+   border: none;
+   cursor: pointer;
+   box-shadow: 4px 4px 30px rgb(0, 0, 0);
+   
+   
+}
+
+.button:hover {
+   border: 3px solid hwb(60 9% 91%);
+}
+
+
+.clear {
+   background: red;
+}
+
+.operator {
+   background-color: rgb(245, 146, 62);
+   color: black;
+   
+}
+
+.equal {
+   background: green;
+}
